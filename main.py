@@ -74,7 +74,7 @@ def b2w_split():
             page.scaleTo(4*72, 6*72)
             output.addPage(page)
 
-    pdf(output)
+        pdf(output)
 
 
 def magalu_split():
