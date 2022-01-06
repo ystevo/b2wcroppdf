@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>607</width>
-    <height>385</height>
+    <width>612</width>
+    <height>579</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -168,7 +168,7 @@
            <number>0</number>
           </property>
          </widget>
-         <widget class="QPushButton" name="btnAction">
+         <widget class="QPushButton" name="btnActionMagalu">
           <property name="geometry">
            <rect>
             <x>10</x>
@@ -188,7 +188,30 @@
 }</string>
           </property>
           <property name="text">
-           <string>Cortar</string>
+           <string>Cortar magalu</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="btnActionB2W">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>280</y>
+            <width>421</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	border: 2px solid rgb(45,45,45);
+	border-radius: 5px;
+	padding: 15px;
+	background-color: rgb(30, 30, 30);
+	color: rgb(100, 100, 100);
+	font: 8pt &quot;Arial&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>Cortar o b2w </string>
           </property>
          </widget>
         </widget>
